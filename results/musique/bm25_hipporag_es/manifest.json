@@ -1,0 +1,42 @@
+{
+  "upstream_commit": "b144c46df14cabe5f5822d8caded4bec5f709461",
+  "server_version": {
+    "number": "8.10.4",
+    "build_flavor": "default",
+    "build_type": "tar",
+    "build_hash": "b4a62ac808e886ff032700c391f45f1408b2538c",
+    "build_date": "2023-10-11T22:04:35.506990650Z",
+    "build_snapshot": false,
+    "lucene_version": "9.7.0",
+    "minimum_wire_compatibility_version": "7.17.0",
+    "minimum_index_compatibility_version": "7.0.0"
+  },
+  "index": "musique_11656_bm25_6cf4aca97a4f",
+  "index_body": {
+    "settings": {
+      "number_of_shards": 1,
+      "number_of_replicas": 0,
+      "index": {
+        "similarity": {
+          "default": {
+            "type": "BM25"
+          }
+        }
+      }
+    },
+    "mappings": {
+      "properties": {
+        "content": {
+          "type": "text"
+        }
+      }
+    }
+  },
+  "question_count": 1000,
+  "corpus_count": 11656,
+  "input_sha256": {
+    "musique.json": "98ed4e21d3076532f6388d42320fb809599c63a0d8dffca8ece5e41922be6b46",
+    "musique_corpus.json": "73157a03ce3f0b1a5673dd5dc12bb970c24976dbffc688af9eecdd758c97ffcb"
+  },
+  "script_sha256": "54399b14193d30a74b3806bc2c73e5900c318ea1d467297d0a67622204679fb1"
+}
